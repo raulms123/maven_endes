@@ -28,7 +28,12 @@ public class EmployeesManager {
         }
     }
 
-  
+    public static void main(String[] args) {
+        EmployeesManager manager = new EmployeesManager();
+        manager.addEmployee("John Doe", 5);
+        manager.addEmployee("Jane Smith", 2);
+        manager.printEmployees();
+    }
 }
 
 
